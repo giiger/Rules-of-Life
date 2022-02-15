@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA097E30256EF011002D195B /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA097E2F256EF011002D195B /* Pixel.swift */; };
+		FA097E3325707495002D195B /* GameOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA097E3225707495002D195B /* GameOfLife.swift */; };
+		FA5B0C5525606A48003B3BB3 /* RuleSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0C5425606A48003B3BB3 /* RuleSet.swift */; };
+		FA5B0C5825607242003B3BB3 /* RuleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0C5725607241003B3BB3 /* RuleMenuViewController.swift */; };
+		FA5B0C5B25609663003B3BB3 /* RulesOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0C5A25609663003B3BB3 /* RulesOfLife.swift */; };
+		FA5B0C60256EDE60003B3BB3 /* BufferGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0C5F256EDE60003B3BB3 /* BufferGrid.swift */; };
 		FAEFBA77255866F0003AF263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBA76255866F0003AF263 /* AppDelegate.swift */; };
 		FAEFBA79255866F0003AF263 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBA78255866F0003AF263 /* SceneDelegate.swift */; };
 		FAEFBA7B255866F0003AF263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBA7A255866F0003AF263 /* ViewController.swift */; };
 		FAEFBA7E255866F0003AF263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFBA7C255866F0003AF263 /* Main.storyboard */; };
 		FAEFBA80255866F3003AF263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEFBA7F255866F3003AF263 /* Assets.xcassets */; };
 		FAEFBA83255866F3003AF263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFBA81255866F3003AF263 /* LaunchScreen.storyboard */; };
+		FAEFBA8D25587CFA003AF263 /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBA8B25587CF9003AF263 /* ImageGenerator.swift */; };
+		FAEFBA8E25587CFA003AF263 /* LineBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBA8C25587CFA003AF263 /* LineBuffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA097E2F256EF011002D195B /* Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		FA097E3225707495002D195B /* GameOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLife.swift; sourceTree = "<group>"; };
+		FA5B0C5425606A48003B3BB3 /* RuleSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleSet.swift; sourceTree = "<group>"; };
+		FA5B0C5725607241003B3BB3 /* RuleMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMenuViewController.swift; sourceTree = "<group>"; };
+		FA5B0C5A25609663003B3BB3 /* RulesOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesOfLife.swift; sourceTree = "<group>"; };
+		FA5B0C5F256EDE60003B3BB3 /* BufferGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferGrid.swift; sourceTree = "<group>"; };
 		FAEFBA73255866F0003AF263 /* Rules of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rules of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEFBA76255866F0003AF263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAEFBA78255866F0003AF263 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,8 @@
 		FAEFBA7F255866F3003AF263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEFBA82255866F3003AF263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAEFBA84255866F3003AF263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFBA8B25587CF9003AF263 /* ImageGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
+		FAEFBA8C25587CFA003AF263 /* LineBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineBuffer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +74,15 @@
 			children = (
 				FAEFBA76255866F0003AF263 /* AppDelegate.swift */,
 				FAEFBA78255866F0003AF263 /* SceneDelegate.swift */,
+				FA5B0C5A25609663003B3BB3 /* RulesOfLife.swift */,
+				FAEFBA8B25587CF9003AF263 /* ImageGenerator.swift */,
+				FA097E2F256EF011002D195B /* Pixel.swift */,
+				FAEFBA8C25587CFA003AF263 /* LineBuffer.swift */,
+				FA5B0C5F256EDE60003B3BB3 /* BufferGrid.swift */,
+				FA097E3225707495002D195B /* GameOfLife.swift */,
+				FA5B0C5425606A48003B3BB3 /* RuleSet.swift */,
 				FAEFBA7A255866F0003AF263 /* ViewController.swift */,
+				FA5B0C5725607241003B3BB3 /* RuleMenuViewController.swift */,
 				FAEFBA7C255866F0003AF263 /* Main.storyboard */,
 				FAEFBA7F255866F3003AF263 /* Assets.xcassets */,
 				FAEFBA81255866F3003AF263 /* LaunchScreen.storyboard */,
@@ -138,7 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEFBA7B255866F0003AF263 /* ViewController.swift in Sources */,
+				FAEFBA8E25587CFA003AF263 /* LineBuffer.swift in Sources */,
+				FA097E30256EF011002D195B /* Pixel.swift in Sources */,
+				FA5B0C5825607242003B3BB3 /* RuleMenuViewController.swift in Sources */,
+				FAEFBA8D25587CFA003AF263 /* ImageGenerator.swift in Sources */,
+				FA5B0C60256EDE60003B3BB3 /* BufferGrid.swift in Sources */,
+				FA097E3325707495002D195B /* GameOfLife.swift in Sources */,
+				FA5B0C5B25609663003B3BB3 /* RulesOfLife.swift in Sources */,
 				FAEFBA77255866F0003AF263 /* AppDelegate.swift in Sources */,
+				FA5B0C5525606A48003B3BB3 /* RuleSet.swift in Sources */,
 				FAEFBA79255866F0003AF263 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D6686MZ69S;
 				INFOPLIST_FILE = "Rules of Life/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D6686MZ69S;
 				INFOPLIST_FILE = "Rules of Life/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
